@@ -47,7 +47,7 @@ public class ReactiveSources {
                 new User(4, "Zinedine", "Zidane"),
                 new User(5, "Jürgen", "Klinsmann"),
                 new User(6, "Gareth", "Bale")
-        ).delayElements(Duration.ofSeconds(1));
+        ).delayElements(Duration.ofSeconds(2));
     }
 
     public static Mono<User> userMono() {
